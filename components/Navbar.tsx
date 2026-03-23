@@ -33,9 +33,9 @@ export default function Navbar() {
         {/* Logo */}
         <a
           href="#"
-          className="font-mono text-sm font-semibold tracking-tight text-accent"
+          className="font-mono text-md font-semibold tracking-tight text-accent"
         >
-          Kabuya<span className="text-gray-400">.</span>dev
+          Kabuya<span className="text-gray-400"> </span>Jr
         </a>
 
         {/* Desktop links */}
@@ -120,14 +120,14 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-white dark:bg-gray-950 border-b border-gray-100 dark:border-gray-800 px-4 pb-4">
-          <ul className="flex flex-col gap-4 pt-2">
+        <div className="md:hidden bg-white dark:bg-gray-950 border-b border-gray-100 dark:border-gray-800 px-4 pb-4 text-center">
+          <ul className="flex flex-col items-center gap-4 pt-2">
             {links.map((link) => (
-              <li key={link.href}>
+              <li key={link.href} className="w-full flex justify-center">
                 <a
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="text-sm text-gray-600 hover:text-accent dark:text-gray-400 dark:hover:text-accent transition-colors"
+                  className="w-full text-center py-2 text-sm text-gray-600 hover:text-accent dark:text-gray-400 dark:hover:text-accent transition-colors"
                 >
                   {link.label}
                 </a>
