@@ -6,7 +6,7 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex items-center pt-16 px-4 bg-white dark:bg-gray-950"
     >
-      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 w-full py-24">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 w-full py-12">
         <div className="flex flex-col gap-10 md:grid md:grid-cols-2 md:gap-12 md:items-center">
           <div className="order-last md:order-first">
             {/* Tag 
