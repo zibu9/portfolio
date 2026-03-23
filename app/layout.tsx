@@ -16,15 +16,23 @@ export const metadata: Metadata = {
   title: "KABUYA NSUNGULA Junior — Développeur Full Stack & IT Systèmes",
   description:
     "Portfolio de KABUYA NSUNGULA Junior, développeur Full Stack orienté backend (Laravel, React, API REST) avec expérience en systèmes et réseaux.",
-  keywords: [
+  icons: {
+    icon: "/assets/photo.png",
+    apple: "/assets/photo.png",
+  },
+    keywords: [
     "développeur full stack",
     "backend",
     "Laravel",
     "React",
+    "React Native",
     "TypeScript",
     "Docker",
     "systèmes réseaux",
     "KABUYA NSUNGULA Junior",
+    "zibu",
+    "zibu9",
+    "zibu28",
   ],
   authors: [{ name: "KABUYA NSUNGULA Junior" }],
   openGraph: {

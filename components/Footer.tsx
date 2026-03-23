@@ -3,7 +3,7 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-gray-100 dark:border-gray-800 bg-white dark:bg-gray-950">
-      <div className="max-w-5xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm font-mono text-gray-400 dark:text-gray-600">
           © {year} KABUYA NSUNGULA Junior
         </p>

@@ -34,7 +34,7 @@ const contactLinks = [
 export default function Contact() {
   return (
     <section id="contact" className="py-20 px-4 bg-white dark:bg-gray-950">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
         {/* Header */}
         <div className="mb-12">
           <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3">
