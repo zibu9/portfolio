@@ -14,7 +14,7 @@ const projects: Project[] = [
     description:
       "Application complète de gestion et validation de billets électroniques avec scan QR code. Permet la création d'événements, la vente de billets, et le contrôle d'accès via scan en temps réel.",
     stack: ["Laravel", "React", "MySQL", "API REST", "QR Code", "JWT"],
-    github: "https://github.com/zibu9",
+    github: "https://scangopass.com",
     type: "Backend / Web App",
   },
   {
@@ -22,16 +22,16 @@ const projects: Project[] = [
     subtitle: "Logiciel de gestion logistique",
     description:
       "Logiciel métier pour la gestion des opérations logistiques : suivi des colis, gestion des clients, facturation et tableaux de bord analytiques pour le pilotage de l'activité.",
-    stack: ["Laravel", "React", "MySQL", "Docker", "API REST"],
+    stack: ["Laravel", "React", "MySQL", "Inertia", "API REST"],
     github: "https://github.com/zibu9",
-    type: "Backend / ERP",
+    type: "Application web",
   },
   {
     title: "AAA + CRM",
     subtitle: "Automatisation abonnement internet",
     description:
       "Système d'automatisation de la gestion des abonnements internet couplé à un CRM. Intègre la gestion des clients, l'activation/désactivation automatique des accès et le suivi des paiements.",
-    stack: ["Laravel", "PHP", "MySQL", "Bash", "Linux", "API REST"],
+    stack: ["Linux", "Ubuntu", "FreeRADIUS", "Laravel", "PHP", "MySQL", "PPPoE", "API REST", "Mikrotik"],
     github: "https://github.com/zibu9",
     type: "Automatisation / CRM",
   },

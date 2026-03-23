@@ -5,11 +5,11 @@ export default function Hero() {
       className="min-h-screen flex items-center pt-16 px-4 bg-white dark:bg-gray-950"
     >
       <div className="max-w-5xl mx-auto w-full py-24">
-        {/* Tag */}
+        {/* Tag 
         <span className="inline-flex items-center gap-2 text-xs font-mono text-accent bg-blue-50 dark:bg-blue-950/40 border border-blue-100 dark:border-blue-900 px-3 py-1.5 rounded-full mb-8">
-          <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+          <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"></span>
           Disponible pour des missions
-        </span>
+        </span>*/}
 
         {/* Name */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-4 leading-tight">
@@ -48,7 +48,7 @@ export default function Hero() {
 
         {/* Tech line */}
         <div className="mt-16 flex flex-wrap gap-3">
-          {["Laravel", "React", "TypeScript", "Docker", "MySQL", "API REST"].map(
+          {["Vmware ESXi", "Ubuntu/Debian", "Laravel", "React", "Docker", "MySQL", "API REST"].map(
             (tech) => (
               <span
                 key={tech}

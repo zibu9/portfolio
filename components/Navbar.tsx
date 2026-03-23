@@ -33,7 +33,7 @@ export default function Navbar() {
           href="#"
           className="font-mono text-sm font-semibold tracking-tight text-accent"
         >
-          KNJ<span className="text-gray-400">.</span>dev
+          Kabuya<span className="text-gray-400">.</span>dev
         </a>
 
         {/* Desktop links */}
