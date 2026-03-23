@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #007FFF;
+  --accent-dark: #0066CC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+/* Dark mode */
+.dark body {
+  @apply bg-gray-950 text-gray-100;
+}
+
+/* Selection */
+::selection {
+  background: #007FFF33;
+  color: #007FFF;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+::-webkit-scrollbar-thumb {
+  background: #007FFF;
+  border-radius: 4px;
+}
+
+/* Section spacing */
+.section {
+  @apply py-20 px-4 max-w-5xl mx-auto;
+}
