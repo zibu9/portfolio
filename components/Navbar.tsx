@@ -24,7 +24,7 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? "bg-white/90 dark:bg-gray-950/90 backdrop-blur border-b border-gray-100 dark:border-gray-800 shadow-sm"
-          : "bg-transparent"
+          : "bg-white/95 dark:bg-gray-950/95"
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 h-16 flex items-center justify-between">
