@@ -1,4 +1,6 @@
-const highlights = [
+type IconName = "cog" | "globe" | "phone";
+
+const highlights: { icon: IconName; title: string; desc: string }[] = [
   {
     icon: "cog",
     title: "Backend First",
@@ -16,13 +18,12 @@ const highlights = [
   },
 ];
 
-function HighlightIcon({
-  icon,
-  className,
-}: {
-  icon: "cog" | "globe" | "phone";
+interface HighlightIconProps {
+  icon: IconName;
   className?: string;
-}) {
+}
+
+function HighlightIcon({ icon, className }: HighlightIconProps) {
   if (icon === "cog") {
     return (
       <svg
