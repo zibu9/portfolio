@@ -43,7 +43,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
         {/* Header */}
         <div className="mb-12">
-          <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3">
+          <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3 text-justify">
             Projets
           </p>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -75,12 +75,12 @@ export default function Projects() {
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-1">
                   {project.title}
                 </h3>
-                <p className="text-sm text-accent font-medium mb-3">
+                <p className="text-sm text-accent font-medium mb-3 text-justify">
                   {project.subtitle}
                 </p>
 
                 {/* Description */}
-                <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed mb-5 flex-1">
+                <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed mb-5 flex-1 text-justify">
                   {project.description}
                 </p>
 

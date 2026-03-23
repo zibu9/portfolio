@@ -37,7 +37,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
         {/* Header */}
         <div className="mb-12">
-          <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3">
+          <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3 text-justify">
             Contact
           </p>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -48,7 +48,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left */}
           <div>
-            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-6 text-justify">
               Disponible pour des missions freelance, des collaborations ou un
               poste en CDI. N&apos;hésitez pas à me contacter pour discuter de
               votre projet.
@@ -70,10 +70,10 @@ export default function Contact() {
                     {link.icon}
                   </span>
                   <div>
-                    <p className="text-xs text-gray-400 dark:text-gray-500 mb-0.5">
+                    <p className="text-xs text-gray-400 dark:text-gray-500 mb-0.5 text-justify">
                       {link.label}
                     </p>
-                    <p className="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover:text-accent transition-colors">
+                    <p className="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover:text-accent transition-colors text-justify">
                       {link.value}
                     </p>
                   </div>
@@ -103,7 +103,7 @@ export default function Contact() {
             <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
               Un projet en tête ?
             </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-6">
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-6 text-justify">
               Backend, API, application mobile ou infra système — parlons-en.
             </p>
             <a

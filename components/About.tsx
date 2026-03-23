@@ -86,7 +86,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
         {/* Header */}
         <div className="mb-12">
-          <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3">
+          <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3 text-justify">
             À propos
           </p>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -97,19 +97,19 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Text */}
           <div className="space-y-5 text-gray-600 dark:text-gray-400 leading-relaxed">
-            <p>
+            <p className="text-justify">
               Développeur Full Stack avec une orientation marquée pour le
               backend, je construis des applications fiables et des API
               performantes en utilisant principalement <strong className="text-gray-800 dark:text-gray-200">Laravel</strong> et{" "}
               <strong className="text-gray-800 dark:text-gray-200">React</strong>.
             </p>
-            <p>
+            <p className="text-justify">
               Ma double compétence en <strong className="text-gray-800 dark:text-gray-200">développement logiciel</strong> et en{" "}
               <strong className="text-gray-800 dark:text-gray-200">IT systèmes & réseaux</strong> me permet d'avoir une vision
               complète des projets : du code applicatif jusqu'à l'infrastructure
               qui le fait tourner.
             </p>
-            <p>
+            <p className="text-justify">
               Polyvalent et autonome, je m'adapte aussi bien aux projets de
               développement d'applications qu'aux missions d'automatisation ou
               d'administration système.
@@ -128,7 +128,7 @@ export default function About() {
                   <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-1">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <p className="text-sm text-gray-500 dark:text-gray-400 text-justify">
                     {item.desc}
                   </p>
                 </div>

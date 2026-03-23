@@ -8,7 +8,7 @@ export default function Hero() {
     >
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 w-full py-24">
         <div className="flex flex-col gap-10 md:grid md:grid-cols-2 md:gap-12 md:items-center">
-          <div>
+          <div className="order-last md:order-first">
             {/* Tag 
             <span className="inline-flex items-center gap-2 text-xs font-mono text-accent bg-blue-50 dark:bg-blue-950/40 border border-blue-100 dark:border-blue-900 px-3 py-1.5 rounded-full mb-8">
               <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"></span>
@@ -23,12 +23,12 @@ export default function Hero() {
             </h1>
 
             {/* Title */}
-            <p className="text-lg sm:text-xl text-gray-500 dark:text-gray-400 font-mono mb-6">
+            <p className="text-lg sm:text-xl text-gray-500 dark:text-gray-400 font-mono mb-6 text-justify">
               Développeur Full Stack &amp; IT Systèmes
             </p>
 
             {/* Description */}
-            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-xl mb-10 leading-relaxed">
+            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-xl mb-10 leading-relaxed text-justify">
               Spécialisé en développement backend, je conçois des API robustes,
               des applications web et mobile, tout en maîtrisant les infrastructures
               système et réseau.
@@ -65,17 +65,18 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="flex justify-center md:justify-center">
+          <div className="order-first md:order-last flex justify-center md:justify-center">
             <div className="relative">
-              <div className="absolute bottom-[-16px] right-[-16px] -z-10 h-[200px] w-[200px] rounded-xl bg-accent/10 md:h-[280px] md:w-[280px]" />
+              <div className="absolute bottom-[-16px] right-[-16px] -z-10 h-[240px] w-[240px] rounded-xl bg-accent/10 md:h-[320px] md:w-[320px]" />
               <div
-                className="relative h-[200px] w-[200px] overflow-hidden rounded-full border-2 border-[#007FFF] md:h-[280px] md:w-[280px]"
+                className="relative h-[240px] w-[240px] overflow-hidden rounded-full border-2 border-[#007FFF] md:h-[320px] md:w-[320px]"
                 style={{ boxShadow: "0 0 0 4px rgba(0,127,255,0.15)" }}
               >
                 <Image
                   src="/assets/photo.png"
                   alt="Portrait de Kabuya Nsungula Junior"
                   fill
+                  sizes="(max-width: 768px) 220px, 320px"
                   className="object-cover object-top"
                   priority
                 />

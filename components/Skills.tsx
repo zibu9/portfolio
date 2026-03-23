@@ -144,7 +144,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-16">
         {/* Header */}
         <div className="mb-12">
-          <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3">
+          <p className="text-xs font-mono text-accent uppercase tracking-widest mb-3 text-justify">
             Compétences
           </p>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
